@@ -35,7 +35,7 @@ body {
 }
 
 .container_outer {
-  padding: 1.5rem;
+  padding: 1.3rem;
   position: absolute;
 }
 
@@ -53,8 +53,7 @@ body {
 }
 
 .rating {
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  margin-top: 3em;
 }
 
 .rating_individual {
@@ -82,6 +81,7 @@ body {
   padding: 1.8em;
   margin-bottom: 0.8em;
   border-radius: 10px;
+  margin: 1 auto;
 }
 
 .user_top {
@@ -121,6 +121,10 @@ body {
   justify-content: center;
   align-content: center;
 }
+.continer_top {
+  margin-bottom: 2em;
+  margin-top: 1.5em;
+}
 
 @media only screen and (min-width: 768px) {
   body {
@@ -129,19 +133,21 @@ body {
   }
 
   .title {
-    font-size: 4rem;
-    line-height: 4.8rem;
-    letter-spacing: -1.71px;
+    font-size: 3.2rem;
+    line-height: 3.84rem;
+    letter-spacing: -1.36px;
     text-align: left;
   }
 
   .hero_paragraph {
     text-align: left;
+    padding: 0 0 1rem 1rem;
+    text-align: left;
   }
 
   .container_outer {
-    padding: 2rem 3rem;
-    margin-top: 1em;
+    padding: 1.6rem 2.4rem;
+    margin-top: 0.8em;
   }
 
   .continer_top {
@@ -149,40 +155,49 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-top: 0.5em;
+    margin-top: -3.2em;
+    width: 65.5em;
+    margin-bottom: 1.1em;
   }
 
   .container_title {
-    max-width: 35em;
+    max-width: 28em;
   }
 
   .rating {
-    width: 35em;
+    width: 28em;
     /* height: 25em; */
+    height: 100%;
+    margin-top: 6em;
+  }
+
+  .rating_star > img {
+    margin: 0.3em;
   }
   .rating_individual {
-    max-width: 45em;
+    max-width: 36em;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    font-size: 0.6em;
-    margin: 1em;
-    font-size: 0.6em;
-    margin: 3.5em 0;
+    font-size: 0.48;
+    margin: 0.8em;
+    font-size: 0.48;
+    margin: 1.5em 0 2.8em 0;
+    max-width: 43em;
   }
   .rating_star {
     display: flex;
-    width: 15em;
+    width: 12em;
     justify-content: space-around;
   }
   .rating_individual:nth-child(1) {
   }
   .rating_individual:nth-child(2) {
-    margin-left: 5em;
+    margin-left: 4em;
   }
   .rating_individual:nth-child(3) {
-    margin-left: 10em;
+    margin-left: 8em;
   }
 
   .users {
@@ -191,18 +206,28 @@ body {
 
   .users_individual {
     width: 23em;
-    margin: 1em;
-    height: 10em;
-    font-size: 1em;
+    margin: 0.8em;
+    height: 12em;
+    padding: 1.2em;
+    font-size: 0.8em;
   }
   .users_individual:nth-child(2) {
-    margin-top: 3em;
+    margin-top: 2.4em;
   }
 
   .users_individual:nth-child(3) {
-    margin-top: 6em;
+    margin-top: 4.8em;
   }
   .container_outer {
-    margin: 0em 6em;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0;
+  }
+  .users_bottom {
+    margin-top: 1.2em;
+    font-size: 1.3em;
   }
 }
